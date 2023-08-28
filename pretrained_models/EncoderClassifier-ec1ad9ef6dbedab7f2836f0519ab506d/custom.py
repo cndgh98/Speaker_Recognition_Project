@@ -1,0 +1,1 @@
+C:\Users\ZERO\Documents\Python\voice\pretrained_models\SpeakerRecognition-8f6f7fdaa9628acf73e21ad1f99d5f83\custom.py

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TEST</title>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <p>TEST</p>
+
+    <hr />
+
+    <div>
+      <button id="start-btn" type="button">start</button>
+      <button id="stop-btn" type="button">stop</button>
+    </div>
+
+    <br />
+
+    <div>
+      <span>스코어:</span>
+      <span id="score">0</span>
+      <br />
+      <span>일치:</span>
+      <span id="prediction">X</span>
+      <br />
+      <span>라우드니스:</span>
+      <span id="loudness">0</span>
+    </div>
+
+    <br />
+
+    <textarea
+      id="messages"
+      rows="20"
+      cols="80"
+      style="resize: none"
+      readonly
+    ></textarea>
+
+    <script
+      src="https://cdn.socket.io/4.4.1/socket.io.min.js"
+      integrity="sha384-fKnu0iswBIqkjxrhQCTZ7qlLHOFEgNkRmK2vaO/LbTZSXdJfAu6ewRBdwHPhBo/H"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TEST</title>
+    <link rel="stylesheet" href="/css/index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="graph">
+        <span> Loudness </span>
+        <canvas id="loudness-graph" width="520" height="300"></canvas>
+      </div>
+      <div class="btn">
+        <button id="record-btn" type="button">
+          <img class="power" src="/img/power.png" />
+        </button>
+      </div>
+      <div class="graph">
+        <span> Score </span>
+        <canvas id="score-graph" width="520" height="300"></canvas>
+      </div>
+    </div>
+    <script
+      src="https://cdn.socket.io/4.4.1/socket.io.min.js"
+      integrity="sha384-fKnu0iswBIqkjxrhQCTZ7qlLHOFEgNkRmK2vaO/LbTZSXdJfAu6ewRBdwHPhBo/H"
+      crossorigin="anonymous"
+    ></script>
+    <script src="http://smoothiecharts.org/smoothie.js"></script>
+    <script src="/js/index.js"></script>
+  </body>
+</html>
